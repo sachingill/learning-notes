@@ -13,7 +13,13 @@ def contains_duplicate(nums: List[int]) -> bool:
 
     
     
-
+def conatains_duplicate_mem(nums: List[int]) -> bool:
+    seen = set()
+    for num in nums:
+        if num in seen:
+            return True
+        seen.add(num)
+    return False
 
 
     
