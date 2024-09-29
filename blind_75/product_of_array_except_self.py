@@ -1,4 +1,4 @@
-def product_except_self(series: list) -> list[int]:
+def product_except_self(series: list[int]) -> list[int]:
     if not series:
         return []
     n = len(series)
@@ -6,7 +6,7 @@ def product_except_self(series: list) -> list[int]:
         return [1]
     prod_array = [1] * n
     prod_before = 1
-    for num, index  in enumerate(series):
+    for index, num in enumerate(series):
         prod_array[index] *= prod_before
         prod_before *= num
     prod_after =1
