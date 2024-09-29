@@ -8,7 +8,7 @@ def max_profit(prices: int) -> int:
         return 0
     
     max_profit: int = 0
-    left = 0
+    left = 0 
     right  = 1
     while  right < len(prices):
         if(prices[left] < prices[right]):
