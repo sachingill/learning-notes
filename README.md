@@ -1,5 +1,11 @@
 # learning-notes
 
+## Set virtual enviornment for externalizing the code
+```
+   python3 -m venv myenv
+   source myenv/bin/activate
+   pip install -r requirements.txt
+```
 Here are links to the Blind 75 coding questions implemented in this repository:
 
 1. [Two Sum](blind_75/two_sum.py)
