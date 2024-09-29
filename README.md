@@ -1,5 +1,21 @@
 # learning-notes
 
+Here are links to the Blind 75 coding questions implemented in this repository:
+
+1. [Two Sum](blind_75/two_sum.py)
+2. [Best Time to Buy and Sell Stock](blind_75/best_time_to_buy_and_sell_stock.py)
+3. [Contains Duplicate](blind_75/contains_duplicate.py)
+// ... existing content ...
+
+4. [Product of Array Except Self](blind_75/product_of_array_except_self.py)
+5. [Maximum Subarray](blind_75/maximum_subarray.py)
+6. [Maximum Product Subarray](blind_75/maximum_product_subarray.py)
+7. [Find Minimum in Rotated Sorted Array](blind_75/find_minimum_in_rotated_sorted_array.py)
+8. [Search in Rotated Sorted Array](blind_75/search_in_rotated_sorted_array.py)
+9. [3Sum](blind_75/3sum.py)
+10. [Container With Most Water](blind_75/container_with_most_water.py)
+
+
 To Dos
 Based on our previous discussions and the topics we've covered, here are some areas we could still explore in Python:
 Concurrency and Parallelism:
