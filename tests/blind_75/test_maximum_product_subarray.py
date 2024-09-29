@@ -1,7 +1,7 @@
 import pytest
 from blind_75.maximum_product_subarray import max_product
 
-@pytest.mark.parametrize("nums", "expected",[
+@pytest.mark.parametrize("nums, expected", [
     ([2,3,-2,4], 6),
     ([-2,0,-1], 0),
     ([-2,3,-4], 24),
@@ -11,7 +11,6 @@ from blind_75.maximum_product_subarray import max_product
 ])
 def test_max_product(nums, expected):
     assert max_product(nums) == expected
-
 
 def test_empty_array():
     with pytest.raises(ValueError):
