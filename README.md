@@ -1,6 +1,6 @@
 # learning-notes
 
-## Set virtual enviornment for externalizing the code
+## Set virtual enviornment for externalizing the code if using virtual environement
 ```
    python3 -m venv myenv
    source myenv/bin/activate
@@ -21,8 +21,6 @@
 
    ## How to Use This Repository
    - Clone the repository
-   - run `python3 -m venv myenv` if using virtual environment
-   - activate `source myenv/bin/activate` if using virtual environment
    - Install dependencies: `pip install -r requirements.txt`
    - Run tests: `pytest tests/`
 
