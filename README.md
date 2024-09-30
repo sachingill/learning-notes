@@ -6,7 +6,29 @@
    source myenv/bin/activate
    pip install -r requirements.txt
 ```
-Here are links to the Blind 75 coding questions implemented in this repository:
+   # Blind 75 LeetCode Solutions
+
+   This repository contains my solutions to the famous "Blind 75" LeetCode questions, a curated list of top interview questions.
+
+   ## What is Blind 75?
+   Blind 75 is a list of 75 leetcode questions created by a Facebook employee. These questions are considered essential for interview preparation.
+
+   ## Repository Structure
+   - Each solution is implemented in Python
+   - Solutions are organized by problem type (e.g., Array, String, Dynamic Programming)
+   - Includes unit tests for each solution
+   - Time and space complexity analysis for each solution
+
+   ## How to Use This Repository
+   - Clone the repository
+   - run `python3 -m venv myenv` if using virtual environment
+   - activate `source myenv/bin/activate` if using virtual environment
+   - Install dependencies: `pip install -r requirements.txt`
+   - Run tests: `pytest tests/`
+
+   ## Progress
+   - Total Problems Solved: [X]/75
+   - [Progress Bar or Checklist of Completed Problems]
 
 1. [Two Sum](blind_75/two_sum.py)
 2. [Best Time to Buy and Sell Stock](blind_75/best_time_to_buy_and_sell_stock.py)
@@ -23,7 +45,6 @@ Here are links to the Blind 75 coding questions implemented in this repository:
 
 
 To Dos
-Based on our previous discussions and the topics we've covered, here are some areas we could still explore in Python:
 Concurrency and Parallelism:
 Threading
 Multiprocessing
