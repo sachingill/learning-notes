@@ -25,14 +25,12 @@
    - Run tests: `pytest tests/`
 
    ## Progress
-   - Total Problems Solved: [X]/75
+   - Total Problems Solved: 6/75
    - [Progress Bar or Checklist of Completed Problems]
 
 1. [Two Sum](blind_75/two_sum.py)
 2. [Best Time to Buy and Sell Stock](blind_75/best_time_to_buy_and_sell_stock.py)
 3. [Contains Duplicate](blind_75/contains_duplicate.py)
-// ... existing content ...
-
 4. [Product of Array Except Self](blind_75/product_of_array_except_self.py)
 5. [Maximum Subarray](blind_75/maximum_subarray.py)
 6. [Maximum Product Subarray](blind_75/maximum_product_subarray.py)
